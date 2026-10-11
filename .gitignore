@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/.angular/
+*.tsbuildinfo
+
+# Environment & secrets (never commit)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Logs & runtime dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+error_log.txt
+logs/
+**/logs/*.log
+
+# Uploads & local DB data
+uploads/
+**/uploads/*
+!**/uploads/.gitkeep
+postgres_data/
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+
+# IDE & OS
+.idea/
+.vscode/
+*.sws
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+*.key
+.cache/

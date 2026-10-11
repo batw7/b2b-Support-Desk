@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" rx="16" fill="url(#heroGrad)" opacity="0.06"/>
+  <g transform="translate(60, 30)">
+    <rect x="0" y="0" width="140" height="140" rx="14" stroke="url(#heroGrad)" stroke-width="2" fill="rgba(59,130,246,0.04)"/>
+    <path d="M45 75 L62 92 L105 49" stroke="url(#heroGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="40" y="110" width="60" height="6" rx="3" fill="url(#heroGrad)" opacity="0.35"/>
+    <rect x="40" y="122" width="80" height="6" rx="3" fill="url(#heroGrad)" opacity="0.2"/>
+  </g>
+  <g transform="translate(230, 45)">
+    <path d="M0 18 Q0 0 18 0 L102 0 Q120 0 120 18 L120 75 Q120 93 102 93 L25 93 L8 112 L8 93 Q0 93 0 75 Z" fill="none" stroke="url(#heroGrad)" stroke-width="2" stroke-linejoin="round" opacity="0.85"/>
+    <line x1="28" y1="32" x2="110" y2="32" stroke="url(#heroGrad)" stroke-width="2" opacity="0.5"/>
+    <line x1="28" y1="50" x2="90" y2="50" stroke="url(#heroGrad)" stroke-width="2" opacity="0.35"/>
+    <line x1="28" y1="68" x2="70" y2="68" stroke="url(#heroGrad)" stroke-width="2" opacity="0.25"/>
+  </g>
+</svg>
